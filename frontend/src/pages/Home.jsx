@@ -125,12 +125,11 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             ["🥬", "காய்கறி", "காய்கறிகள்"],
             ["🍎", "பழம்", "பழங்கள்"],
             ["🌾", "தானியம்", "தானியங்கள்"],
-            ["🥛", "பால் பொருள்", "பால் பொருட்கள்"],
             ["🧺", "மற்றவை", "இயற்கை பொருட்கள்"],
           ].map(([icon, label, desc]) => (
             <Link
