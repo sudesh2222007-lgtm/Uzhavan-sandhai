@@ -125,7 +125,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-2 sm:gap-4">
           {[
             ["🥬", "காய்கறி", "காய்கறிகள்"],
             ["🍎", "பழம்", "பழங்கள்"],
