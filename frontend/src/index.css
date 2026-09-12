@@ -39,3 +39,10 @@ html, body {
 .product-grid, .grid-products {
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
+
+/* Force 2 products per row on Desktop and all screens */
+@media (min-width: 641px) {
+  .product-grid, .grid-products {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
