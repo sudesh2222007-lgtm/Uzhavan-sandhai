@@ -1,1 +1,1 @@
-{" version\: 2, \builds\: [{\src\: \frontend/package.json\, \use\: \@vercel/vite\}], \routes\: [{\src\: \/  \, \dest\: \/frontend/\}]}
+{" version\: 2, \rewrites\: [{\source\: \/api/  \, \destination\: \/api/index.js\}]}
